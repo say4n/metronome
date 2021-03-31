@@ -10,7 +10,6 @@ import os
 import subprocess
 import time
 
-# epic timer class I wrote, bowing to OOP
 class Timer:
 
     starttime = None
