@@ -46,7 +46,7 @@ def on_keypress(key, win):
     global args, step, terminate, timer
 
     if key == 'KEY_UP':
-        args.bpm = min(args.bpm + step, 300) # feEL tHe SpEd
+        args.bpm = min(args.bpm + step, 300)
 
         # reset timer to apply changes
         timer.to_elapse = 60/args.bpm
@@ -78,7 +78,7 @@ def on_keypress(key, win):
 
 def main(win):
 
-    # I wasn't spending time changing my terminal theme to have it taken away by python
+    # Let user use their own terminal theme
     curses.use_default_colors()
 
     key=None
