@@ -1,7 +1,3 @@
-# What I changed:
-#       timing for not blocking input -> new problem: program is eating CPU like candy, has to sleep some
-#       make output cleaner -> output i like more now <3, colors are default colors from users terminal
-
 #! /usr/bin/env python3
 
 import argparse
